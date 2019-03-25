@@ -73,7 +73,7 @@ public class D2PDatePicker: UIView {
         super.awakeFromNib()
         
         // topView Rounded Corner
-        self.topView.layer.cornerRadius = 10.0
+        //self.topView.layer.cornerRadius = 10.0
         self.topView.clipsToBounds = true
         
         
@@ -82,7 +82,7 @@ public class D2PDatePicker: UIView {
         self.middleView.layer.borderWidth = 1.0
         
         // bottomView Rounded Corner & border
-        self.bottomView.layer.cornerRadius = 10.0
+        //self.bottomView.layer.cornerRadius = 10.0
         self.bottomView.layer.borderColor = UIColor.groupTableViewBackground.cgColor
         self.bottomView.layer.borderWidth = 1.0
         
